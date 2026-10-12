@@ -429,5 +429,9 @@ data modify block 1024 5 149 front_text.messages[1].text set value "Chillager"
 
 data modify block 1124 4 166 front_text.messages set value ["Algo","Ofensivo","","-Yo"]
 
+data modify block 1101 3 204 Book.components."minecraft:writable_book_content".pages[0].raw set value "Receta de Solomillo Wellington:\n\n\nPrimero, reúne todos los champiñones envejecidos en barril en la cocina.\n\nLuego, reúne 8 panes artesanales.\n\nFinalmente, añade 10 filetes ahumados."
+data modify block 1101 3 204 Book.components."minecraft:writable_book_content".pages[1].raw set value "Coloque todos los ingredientes en la bolsa de entrega, en el orden indicado, y sitúe la bolsa sobre la piedra, al lado del cliente."
+data modify block 1103 3 205 CustomName set value "Bolsa de Entrega"
+
 tellraw @a {"text":"Traducción de desafíos aplicado al 98%",color:"red"}
 
